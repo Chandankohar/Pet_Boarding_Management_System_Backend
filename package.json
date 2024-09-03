@@ -4,10 +4,8 @@
   "description": "API for pet management",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "client": "cd client && npm run dev",
-    "server": "nodemon index.js"
+    "start": "nodemon index.js"
+    
   },
   "keywords": [
     "api",
